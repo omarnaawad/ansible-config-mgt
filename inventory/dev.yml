@@ -1,1 +1,12 @@
+[nfs]
+10.128.0.24 ansible_ssh_user='omar_naawad'
 
+[webservers]
+10.128.0.25 ansible_ssh_user='omar_naawad'
+10.128.0.26 ansible_ssh_user='omar_naawad'
+
+[db]
+10.128.0.31 ansible_ssh_user='omar_naawad' 
+
+[lb]
+10.128.0.32 ansible_ssh_user='omar_naawad'
